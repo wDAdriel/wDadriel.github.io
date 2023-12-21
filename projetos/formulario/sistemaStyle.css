@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+} 
+
+
+.btn{
+    
+    
+    
+    text-decoration: none;
+    background-color: #6b9997;
+    border-radius: 5px;
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #615145;
+}
+
+header{ 
+    background-color: #8ab8a8;
+}
+
+header > h1 {
+    text-align: center;
+}
+#burguer{
+    background-color: #615145;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#burguer:hover {
+    background-color: white;
+    color: #615145;
+}
+
+menu{
+    display: none;
+}
+
+menu ul{
+    list-style-type: none;
+    
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #54787d;
+    border-top: 1px solid black;
+}
+
+menu > ul > li > a:hover{
+    background-color: #8ab8a8;
+    color: white;
+}
+
+
+body{ 
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+}
+    
+main{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #c6cca5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+    
+}   
+section{
+    width: 500px;
+    padding: 50px;    
+}
+section > h2 {
+    
+    text-align: center;
+    padding: 20px;
+    
+    
+} 
+section > p {
+    text-align: left;
+    
+    padding: 25px 0px;
+} 
+.quad{
+    
+    width: 150px;
+    height: 150px;  
+    border: solid .5px black;
+    background-color: #6b9997;
+   
+}
+
+    

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font: normal 12pt arial;
+    background-image: linear-gradient(to right, rgb(68, 139, 180), rgb(98, 199, 194),rgb(36, 109, 128));
+}
+div{
+    padding: 5px;
+    margin: 20px 0px;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(10, 80, 97, 0.9);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    width: 20%;    
+    box-shadow: 1px 1px 15px #00000060;
+}
+fieldset{
+    border: .5px solid #c3cbe5;
+    height: 670px;
+
+}
+legend{
+    border: 1px solid #fcfcfc;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(54, 178, 250);
+    border-radius: 5px;
+    color: black;
+}
+.inputBox{
+    position: relative;
+    
+}
+.inputUser{
+    background:none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 2px;
+    
+   
+
+
+}
+
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+label{
+    margin: 5px 5px;    
+}
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: #d7c3e5;
+
+}
+p{
+    margin: 10px 4px;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(54, 178, 250);
+
+}
+#data_nascimento:hover{
+    background-color: rgb(26, 65, 83);
+    color: white;
+}
+
+.submit{
+    
+    background-color: rgb(54, 178, 250);
+    width: 99%;
+    border: none;
+    height: 50px;    
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.288);
+
+
+}
+
+.submit:hover{
+    color: white;
+    background-color: rgb(26, 65, 83);
+}
